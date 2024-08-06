@@ -1,0 +1,48 @@
+body{
+    background-color: #073961;
+}
+
+.card{
+    width: 350px;
+    border: none;
+    border-radius: 6px;
+}
+
+.container{
+    height: 100vh;
+}
+
+.top{
+    padding: 18px;
+    background-color: rgb(173, 33, 33);
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius:6px ;
+}
+
+.middle{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    flex-direction: column;
+
+}
+
+.bottom{
+    padding: 10px;
+    padding-top: 30px;
+    background: rgb(231, 213, 219);
+}
+
+.input-group{
+    width: 108px;
+}
+
+.form-control:focus{
+    border-color: rgb(87, 6, 6);
+    background-color: white;
+    outline: 0;
+    color: rgb(216, 215, 215);
+}
